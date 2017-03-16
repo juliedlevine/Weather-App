@@ -16,13 +16,13 @@ Weather Application to get current weather in your zip code
 Landing Page - user can enter their zip code to see the current weather.
 <br>
 <p align='center'>
-    <img src='#'></img>
+    <img src='https://github.com/juliemdyer/Weather-App/blob/master/screenshots/landing_page.png'></img>
 </p>
 
 Weather - image shows current conditions. They are also given the name of the city that corresponds to the zip code submitted.
 <br>
 <p align='center'>
-    <img src='#'></img>
+    <img src='https://github.com/juliemdyer/Weather-App/blob/master/screenshots/weather.png'></img>
 </p>
 
 
