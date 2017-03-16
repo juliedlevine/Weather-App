@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <h1>Weather App</h1>
+    <form>
+        <p>Type your city's zip code to find out the current weather</p>
+        <input type="text" id="input">
+        <input type="submit" id="submit" class="myButton">
+    </form>
+
+    <div id="content">
+        <img id="logo">
+        <p>The current temperature in <span id="city"> </span> is <span id="temperature"></span> with <span id="description"></span>.</p>
+        <p>The current wind speed is <span id="wind"></span> miles per hour.</p>
+    </div>
+
+    <div id="footer">
+        <p>Built by Julie using the Open Weather Map API</p>
+        <p>January 2017</p>
+        <img id="julie" src="julie.jpg">
+    </div>
+
+
+</body>
+</html>
